@@ -104,6 +104,7 @@ while(command != "n"):
 #https://opensearch.org/docs/1.2/opensearch/rest-api/document-apis/index-document/
 #querying in detail
 #https://docs.aws.amazon.com/opensearch-service/latest/developerguide/searching.html
+#https://opensearch.org/docs/latest/api-reference/search/
 #updating a doc in detail
 #https://opensearch.org/docs/latest/api-reference/document-apis/update-document/
 #bulk actions
