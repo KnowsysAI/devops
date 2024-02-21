@@ -1,7 +1,11 @@
+from dotenv import load_dotenv
+import os
 import requests
+load_dotenv()
+
 url = "https://search-newsdata-tester-uy43guqnasvykkyt5wkmx4y7sa.us-east-1.es.amazonaws.com/ukraine_index"
-username = "ethanfincher"
-password = "Password123!"
+username = os.getenv("OPENSEARCH_USERNAME")
+password = os.getenv("OPENSEARCH_PASSWORD")
 
 #read
 #just needs the _search part to get everything
